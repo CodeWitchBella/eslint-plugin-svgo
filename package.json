@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-svgo",
+  "version": "0.0.1",
+  "description": "Runs svg embedded in JSX through svgo",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1",
+    "svgo": "^1.3.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.2.1",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "test": "node tests/lib/rules/svgo.js"
+  },
+  "author": "Isabella Skořepová",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "svg"
+  ]
+}
